@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/yuangpeng/Documents/LaTex Templates/WHU 可信计算模板/.texpadtmp/main.aux
+The style file: gbt7714-numerical.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 150 items from 100.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../wpref.bib
+You've used 2 entries,
+            5265 wiz_defined-function locations,
+            1032 strings with 7928 characters,
+and the built_in function-call counts, 5526 in all, are:
+= -- 293
+> -- 382
+< -- 585
++ -- 282
+- -- 117
+* -- 87
+:= -- 955
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 205
+cite$ -- 2
+duplicate$ -- 50
+empty$ -- 125
+format.name$ -- 46
+if$ -- 1345
+int.to.chr$ -- 1
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 24
+num.names$ -- 6
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 2
+quote$ -- 0
+skip$ -- 429
+stack$ -- 0
+substring$ -- 373
+swap$ -- 2
+text.length$ -- 43
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 47
+width$ -- 0
+write$ -- 43

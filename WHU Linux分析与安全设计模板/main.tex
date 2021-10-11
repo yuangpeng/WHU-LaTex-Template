@@ -1,0 +1,89 @@
+\documentclass{whureport}
+% =============================================
+% Part 1 Edit the info
+% =============================================
+
+\def\coursename{Linux架构分析与安全设计}
+\def\homeworkname{实验一\quad Linux内核基本数据结构及内存管理原理分析}
+
+\def\study{信息安全}
+\def\id{2019302140023}
+\def\name{彭雨昂}
+\def\teachername{王鹃教授}
+
+\title{\homeworkname}
+\date{}
+% =============================================
+% Part 1 Main document
+% =============================================
+\begin{document}
+\makecover
+
+\section{实验名称}
+Linux内核基本数据结构及内存管理原理分析
+
+
+
+
+\section{实验目的}
+\begin{itemize}
+	\item 熟悉Linux内核基本数据结构
+	\item 了解内存管理的基本原理
+\end{itemize}
+
+
+
+
+\section{实验步骤及内容}
+\subsection{第一阶段：分析Linux内核的基本数据结构}
+\begin{enumerate}
+	\item 分析LINUX内核文件系统实现基本数据结构，包括file struct, inode, super\_block, dentry等，描述上述数据结构之间的关系，从代码角度理解linux文件系统管理的基本原理
+\end{enumerate}
+
+
+
+
+
+\subsection{第二阶段：执行内存管理的相关命令，分析Linux内存的基本信息}
+\begin{enumerate}
+	\item 执行top、free、vmstat命令，查看系统内存状态
+	\item 查看内存buddyinfo和slabinfo等
+\end{enumerate}
+
+
+
+
+
+\subsection{第三阶段：分析创建进程中内存分配的过程和原理}
+\begin{enumerate}
+	\item 分析进程创建过程中与内存相关的主要数据结构，如task\_struct, mm\_struct, vm\_area struct等，理解其含义
+	\item 分析进程创建过程中内存分配的相关代码，简述其基本原理
+\end{enumerate}
+
+
+
+
+
+\section{实验关键过程及其分析}
+
+
+
+
+
+\section{问题及思考}
+\subsection{当Copy一个文件时，系统会新生成inode吗？}
+
+
+
+\subsection{Linux中文件名和inode是如何建立联系，从而找到文件的？}
+
+
+
+
+
+\subsection{思考内存管理数据结构中，mm\_struct、vma、vaddr、page、pfn、pte、zone、paddrr和pd\_data等的相互关系，给出你的理解。}
+
+
+
+
+\end{document}

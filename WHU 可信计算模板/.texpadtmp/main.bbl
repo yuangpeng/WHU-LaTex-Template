@@ -1,0 +1,26 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[丁玮\ 等(1998)丁玮 and
+  齐东旭]{丁玮1998数字图像变换及信息隐藏与伪装技术}
+丁玮, 齐东旭.
+\newblock 数字图像变换及信息隐藏与伪装技术\allowbreak[J].
+\newblock 计算机学报, 1998, 21\allowbreak (9): 838-843.
+
+\bibitem[陈波\ 等(2005)陈波, 谭运猛, and
+  吴世忠]{陈波2005信息隐藏技术综述}
+陈波, 谭运猛, 吴世忠.
+\newblock 信息隐藏技术综述\allowbreak[J].
+\newblock 计算机与数字工程, 2005, 33\allowbreak (2): 21-23.
+
+\end{thebibliography}

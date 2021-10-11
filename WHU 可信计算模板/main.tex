@@ -1,0 +1,69 @@
+\documentclass[lang=cn,11pt,a4paper,cite=super]{whureport}
+
+% =============================================
+% Part 1 Edit the info
+% =============================================
+
+\def\id{2019302140023}
+\def\myname{彭雨昂}
+\def\exname{实验x：xxxxxx}
+
+% =============================================
+% Part 2 Main document
+% =============================================
+\begin{document}
+\makeheader
+
+
+
+\section{实验目的}
+\begin{lstlisting}[language=c]
+struct inode {
+	umode_t			i_mode;
+	unsigned short		i_opflags;
+	kuid_t			i_uid;
+	kgid_t			i_gid;
+	unsigned int		i_flags;
+
+#ifdef CONFIG_FS_POSIX_ACL
+	struct posix_acl	*i_acl;
+	struct posix_acl	*i_default_acl;
+#endif
+
+	const struct inode_operations	*i_op;
+	struct super_block	*i_sb;
+	struct address_space	*i_mapping;
+
+#ifdef CONFIG_SECURITY
+	void			*i_security;
+#endif
+\end{lstlisting}
+
+
+\section{实验内容}
+
+
+
+\section{实验步骤}
+
+
+
+
+
+
+\nocite{*}
+\bibliography{wpref}
+
+\appendix
+%\appendixpage
+\addappheadtotoc
+\section{一级附录}
+\subsection{二级附录}
+
+
+\section{其他附录}
+
+
+
+
+\end{document}
