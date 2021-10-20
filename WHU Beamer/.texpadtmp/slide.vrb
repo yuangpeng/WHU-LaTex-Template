@@ -1,0 +1,7 @@
+\small{用户可以先通过下述命令禁用用户命名空间来缓解该漏洞带来的影响：}
+\tiny\begin{lstlisting}
+echo 0 > /proc/sys/user/max_user_namespaces
+\end{lstlisting}
+
+\small{该漏洞的完全修复需要用户更新内核并重启系统，修复成本较高，导致利用窗口期较长，漏洞影响与危害较大。攻击者获得内核的代码执行权限后，一般会试图修改自身或指定进程的task->cred 来提升至root用户权限，并且借助切换命名空间来逃逸容器。}
+

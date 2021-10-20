@@ -1,0 +1,158 @@
+\documentclass[xcolor=table]{beamer}
+\usepackage{ctex, hyperref}
+\usepackage{calligra}
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+% c++模板
+\definecolor{commentColor}{RGB}{53,129,34}
+\definecolor{keywordColor}{RGB}{172, 62, 158}
+\definecolor{stringColor}{RGB}{194, 62, 42}
+\definecolor{preprocessorColor}{RGB}{114, 75, 48}
+\definecolor{characterColor}{RGB}{31, 53, 207}
+\definecolor{numberColor}{RGB}{166, 166, 166}
+\definecolor{oglobalColor}{RGB}{97, 64, 154}
+\definecolor{globalColor}{RGB}{89, 127, 134}
+\definecolor{functionColor}{RGB}{56,36,124}
+
+\RequirePackage{fontspec}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[scaled=0.85]{beramono}
+\newfontfamily\sff{SFMono-Regular}
+
+\lstset{
+language=C,
+basicstyle=\ttfamily,
+keywordstyle=\color{keywordColor}\ttfamily\bfseries,
+commentstyle=\color{commentColor}\ttfamily,
+stringstyle=\color{stringColor}\ttfamily,
+showstringspaces=false,
+columns=flexible,
+numbers=left,
+numberstyle=\color{numberColor}\footnotesize\sf,
+%morecomment=[s][\color{stringColor}\ttfamily]{<}{>},
+morecomment=[s][\color{characterColor}\ttfamily]{'}{'},
+moredelim        = [s][\color{commentColor}]{/*}{*/},
+keywords=[2]{std, cout, cin},
+keywordstyle = [2]{\color{oglobalColor}\ttfamily},
+keywords=[3]{endl, printf, scanf, setw, setfill, setbase, setprecision, time, ctime, rand},
+keywordstyle = [3]{\color{functionColor}\ttfamily},
+keywords=[4]{\#include},
+keywordstyle =[4]{\color{preprocessorColor}\ttfamily},
+literate={
+    {<<}{{{\color{black}<<}}}1
+    {>>}{{{\color{black}>>}}}1
+    {0}{{{\color{characterColor}0}}}1
+    {1}{{{\color{characterColor}1}}}1
+    {2}{{{\color{characterColor}2}}}1
+    {3}{{{\color{characterColor}3}}}1
+    {4}{{{\color{characterColor}4}}}1
+    {5}{{{\color{characterColor}5}}}1
+    {6}{{{\color{characterColor}6}}}1
+    {7}{{{\color{characterColor}7}}}1
+    {8}{{{\color{characterColor}8}}}1
+    {9}{{{\color{characterColor}9}}}1},
+tabsize=4
+}
+
+
+% 代码格式和颜色定义
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{comment}{rgb}{0.56,0.64,0.68}
+\lstset{
+  frame=single,
+  aboveskip=3mm,
+  belowskip=3mm,
+  xleftmargin=2em,
+  belowcaptionskip=1\baselineskip,
+  frameround=tttt,
+  xrightmargin=\parindent,
+  %showstringspaces=false,
+  %columns=flexible,
+  framerule=1pt,
+  rulecolor=\color{gray!35},
+  backgroundcolor=\color{gray!5},
+  %basicstyle={\small\ttfamily},
+  %numbers=none,
+  %numberstyle=\tiny\color{gray},
+  numberstyle=\tiny\color{gray},            % 设置行号字体大小
+  %keywordstyle=\color{blue},
+  %commentstyle=\color{comment},
+  %stringstyle=\color{dkgreen},
+  breaklines=true,
+  breakatwhitespace=true,
+  %tabsize=2,
+}
+
+\lstdefinestyle{customasm}{
+    belowcaptionskip=1\baselineskip,
+    %frame=single, 
+    %frameround=tttt,
+    xleftmargin=\parindent,
+    language=[x86masm]Assembler,
+    basicstyle=\footnotesize\ttfamily,
+    commentstyle=\itshape\color{green!60!black},
+    keywordstyle=\color{blue!80!black},
+    identifierstyle=\color{red!80!black},
+    tabsize=4,
+    numbers=left,
+    numbersep=8pt,
+    stepnumber=1,
+    numberstyle=\tiny\color{gray}, 
+    columns = fullflexible,
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\author{彭雨昂}
+\title{题目}
+
+\subtitle{题目题目}
+
+\institute{武汉大学国家网络安全学院}
+\date{\today}
+\usepackage{WHU}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% 首页 %%%%%%%%%%%%%%%%%
+\kaishu
+\begin{frame}
+	\titlepage
+	\begin{figure}[htpb]
+		\begin{center}
+			\includegraphics[width=0.2\linewidth]{pic/whulogo.eps}
+		\end{center}
+	\end{figure}
+\end{frame}
+\begin{frame}
+\tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
+\end{frame}
+%%%%%%%%%%%%%%%%% 首页 %%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% 正文 %%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%% 正文 %%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% 感谢 %%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{center}
+{\Huge Thanks!}
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%% 感谢 %%%%%%%%%%%%%%%%%
+
+\end{document}

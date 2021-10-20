@@ -1,0 +1,20 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdftex 2021.7.9)  17 OCT 2021 22:56
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**ref.bib
+(./ref.bib
+Missing character: There is no æ in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no ª in font cmr10!
+Missing character: There is no ç in font cmr10!
+Missing character: There is no Ÿ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
+)
+! Emergency stop.
+<*> ref.bib
+           
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
