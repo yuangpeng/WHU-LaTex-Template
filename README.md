@@ -15,5 +15,6 @@
 #### 致谢🙏
 
 - 参考了[浙江大学实验报告模板](https://github.com/megrxu/zju-report-latex-template)和[ElegantPaper](https://github.com/ElegantLaTeX/ElegantPaper)
+- Beamer模板参考了[民间武大Beamer模板](https://github.com/fyqqyf/WHU-Beamer-Theme)
 
 > 本模板仅供学习交流使用
