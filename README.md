@@ -9,7 +9,8 @@
 
 #### 可能出现的问题❓
 
-- Windows下不自带SF字体，请到[苹果官方](https://developer.apple.com/fonts/)下载（如果MacOS没有自带也需要下载）
+- Windows下不自带SF字体，请在cls中换成其他字体
+- Mac请到[苹果官方](https://developer.apple.com/fonts/)下载
 - 由于有部分参考其他模板，后续如果有更多其他冲突请反馈给我
 
 #### 致谢🙏
